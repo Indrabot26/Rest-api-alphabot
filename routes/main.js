@@ -19,6 +19,14 @@ router.get('/api/news', (req, res) => {
     res.redirect('https://raw.githubusercontent.com/Zhirrr/My-SQL-Results/main/Berita.json')
 })
 
+router.get('/login', (req, res) => {
+             res.sendFile(__path + '/docs/register.html')
+})
+
+router.get('/login', (req, res) => {
+             res.sendFile(__path + '/docs/login.html')
+})
+
 router.get('/config', (req, res) => {
     config = {
         status: true,
