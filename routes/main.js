@@ -20,11 +20,11 @@ router.get('/api/news', (req, res) => {
 })
 
 router.get('/login', (req, res) => {
-             res.sendFile(__path + '/docs/register.html')
+             res.sendFile(__path + '/viwes/register.html')
 })
 
 router.get('/login', (req, res) => {
-             res.sendFile(__path + '/docs/login.html')
+             res.sendFile(__path + '/viwes/login.html')
 })
 
 router.get('/config', (req, res) => {
