@@ -24,7 +24,7 @@ router.get('/login', (req, res) => {
 })
 
 router.get('/login', (req, res) => {
-             res.sendFile(__path + '/viwes/login.html')
+             res.sendFile(__path + '/views/login.html')
 })
 
 router.get('/config', (req, res) => {
